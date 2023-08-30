@@ -1,0 +1,20 @@
+---
+
+import Home from '../components/Home';
+import './style.css'
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+	</head>
+	<body>
+		<main>
+			<Home client:visible></Home>
+		</main>
+	</body>
+</html>
