@@ -1,3 +1,7 @@
+![image](https://github.com/Hasan-Kilici/solid-astro-weather-app/assets/105741983/44accb18-ab65-4013-803f-1f21ec9493c0)
+![image](https://github.com/Hasan-Kilici/solid-astro-weather-app/assets/105741983/a5d0c6ee-9868-4af8-9ec2-eb4ca96df9f1)
+
+
 # Astro + Solid.js Example
 
 ```
