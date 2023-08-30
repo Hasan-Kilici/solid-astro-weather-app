@@ -19,7 +19,7 @@ interface WeatherData {
 function WeatherApp() {
   const [weatherData, setWeatherData] = createSignal<WeatherData | null>(null);
   const [city, setCity] = createSignal<string>("londra");
-  const apiKey = "";
+  const apiKey = import.meta.env.PUBLIC_ApiKey;
 
   createEffect(() => {
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?units=metric&appid=${apiKey}&q=${city()}&lang=tr`;
